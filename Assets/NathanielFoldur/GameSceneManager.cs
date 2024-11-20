@@ -44,11 +44,10 @@ public class GameSceneManager : MonoBehaviour
             gameInfo.CurrentScene = GameScene.Running;
             //switch to running scene
         }
-        else if (gameInfo.CurrentScene == GameScene.Running)
-        {
-            gameInfo.CurrentScene = GameScene.Loss;
-            //switch to "loss" screen
-        }
+    }
+    public void SwitchToLoseScreen()
+    {
+        gameInfo.CurrentScene = GameScene.Loss;
     }
     // Update is called once per frame
     void Update()

@@ -12,7 +12,7 @@ public class DarknessMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector2 DarkPos = new Vector2(DarknessSpeed,0);
         transform.position += (Vector3) DarkPos;
