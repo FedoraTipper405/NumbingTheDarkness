@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DarknessMovement : MonoBehaviour
 {
-    public float DarknessSpeed = .1f;
+    public float DarknessSpeed;
     // Start is called before the first frame update
     void Start()
     {
