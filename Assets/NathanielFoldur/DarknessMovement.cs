@@ -10,7 +10,10 @@ public class DarknessMovement : MonoBehaviour
     {
         
     }
-
+    public void SetDarkSpeed(float newSpeed)
+    {
+        DarknessSpeed = newSpeed;
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
