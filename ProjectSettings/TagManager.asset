@@ -41,3 +41,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ground
+    uniqueID: 3087951055
+    locked: 0
+  - name: walls
+    uniqueID: 3717104693
+    locked: 0
+  - name: furniture
+    uniqueID: 3738540117
+    locked: 0
+  - name: sub decor
+    uniqueID: 4074417245
+    locked: 0
+  - name: decorations
+    uniqueID: 851509593
+    locked: 0
+  - name: exttra
+    uniqueID: 3545265799
+    locked: 0
+  - name: extraextra
+    uniqueID: 559150579
+    locked: 0
+  - name: characters
+    uniqueID: 2638266895
+    locked: 0
+  - name: Character Detail
+    uniqueID: 1479692407
+    locked: 0
