@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -16,27 +17,32 @@ public class GameSceneManager : MonoBehaviour
         if(gameInfo.CurrentScene == GameScene.Divorce)
         {
             gameInfo.CurrentScene = GameScene.Mom;
+            SceneManager.LoadScene("House-Mom");
             //switch to mom scene
         }
         else if (gameInfo.CurrentScene == GameScene.Mom)
         {
             gameInfo.CurrentScene = GameScene.Dad;
+            SceneManager.LoadScene("House-Dad");
             //switch to dad scene
         }
         else if (gameInfo.CurrentScene == GameScene.Dad)
         {
             gameInfo.CurrentScene = GameScene.Party;
+            SceneManager.LoadScene("Party");
             //switch to party scene
         }
         else if (gameInfo.CurrentScene == GameScene.Party && gameInfo.NumberOfLoops < 3)
         {
             gameInfo.NumberOfLoops++;
             gameInfo.CurrentScene = GameScene.Mom;
+            SceneManager.LoadScene("House-Mom");
             //switch to mom scene
         }
         else if (gameInfo.CurrentScene == GameScene.Party && gameInfo.NumberOfLoops >= 3)
         {
             gameInfo.CurrentScene = GameScene.Friend;
+            SceneManager.LoadScene("Friend");
             //switch to friend scene
         }
         else if (gameInfo.CurrentScene == GameScene.Friend)

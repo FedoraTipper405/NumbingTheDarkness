@@ -5,10 +5,18 @@ using UnityEngine;
 public class DarknessMovement : MonoBehaviour
 {
     public float DarknessSpeed;
+    [SerializeField] GameInfo gameInfo;
+    [SerializeField] private float speedPerLoop;
+    [SerializeField] private float pillChange;
     // Start is called before the first frame update
     void Start()
     {
-        
+        DarknessSpeed += speedPerLoop * gameInfo.NumberOfLoops;
+    }
+    public void SetDarkPillSpeed(float PillSpeed)
+    {
+        float tempSpeed = PillSpeed + pillChange * gameInfo.NumberOfLoops;
+        SetDarkSpeed(tempSpeed);
     }
     public void SetDarkSpeed(float newSpeed)
     {

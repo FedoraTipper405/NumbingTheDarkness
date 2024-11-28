@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/EnzoFolder/Bedroom-Divorce.unity
+    guid: b8ebe5854cacc254b84feb47be78b0fe
+  - enabled: 1
+    path: Assets/EnzoFolder/Friend.unity
+    guid: a27d292b88e680f4bb582b756d48bea7
+  - enabled: 1
+    path: Assets/EnzoFolder/Party.unity
+    guid: 2081fe815c9208549b8138fe2f212aae
+  - enabled: 1
+    path: Assets/EnzoFolder/House-Dad.unity
+    guid: ef33e319028eaf44384c2b9d94f595ea
+  - enabled: 1
+    path: Assets/EnzoFolder/House-Mom.unity
+    guid: 6ea1b53745b1e5641846d5c7ba442c0a
   m_configObjects: {}

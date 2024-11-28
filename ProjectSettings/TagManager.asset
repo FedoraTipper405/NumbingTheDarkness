@@ -68,3 +68,9 @@ TagManager:
   - name: Character Detail
     uniqueID: 1479692407
     locked: 0
+  - name: VeryFront
+    uniqueID: 144278699
+    locked: 0
+  - name: Darkness
+    uniqueID: 2676744503
+    locked: 0
