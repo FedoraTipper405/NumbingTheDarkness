@@ -48,12 +48,14 @@ public class GameSceneManager : MonoBehaviour
         else if (gameInfo.CurrentScene == GameScene.Friend)
         {
             gameInfo.CurrentScene = GameScene.Running;
+            SceneManager.LoadScene("Running");
             //switch to running scene
         }
     }
     public void SwitchToLoseScreen()
     {
         gameInfo.CurrentScene = GameScene.Loss;
+        SceneManager.LoadScene("Death");
     }
     // Update is called once per frame
     void Update()
