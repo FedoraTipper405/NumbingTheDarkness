@@ -4,7 +4,9 @@ using UnityEngine;
 
 public enum SoundClip
 {
-   
+    MotherHugSound,
+    PillSound,
+    BottleSound,
 }
 
 public class AudioManager : MonoBehaviour

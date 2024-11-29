@@ -12,6 +12,7 @@ public class Mother : InteractableObject
     public override void ObjectTouched()
     {
         Debug.Log("Mother Reached");
+        AudioManager.PlaySound(SoundClip.MotherHugSound);
         MotherReached();
     }
 }

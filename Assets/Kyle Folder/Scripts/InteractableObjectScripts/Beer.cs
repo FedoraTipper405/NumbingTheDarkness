@@ -12,6 +12,7 @@ public class Beer : InteractableObject
     public override void ObjectTouched()
     {
         Debug.Log("Beer Collected");
+        AudioManager.PlaySound(SoundClip.BottleSound);
         BeerCollected();
     }
 }
