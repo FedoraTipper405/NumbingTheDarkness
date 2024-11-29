@@ -12,6 +12,7 @@ public class Pill : InteractableObject
     public override void ObjectTouched()
     {
         Debug.Log("Pill Collected");
+        AudioManager.PlaySound(SoundClip.PillSound);
         PillCollected();
     }
 }
