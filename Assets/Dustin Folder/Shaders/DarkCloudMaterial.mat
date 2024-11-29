@@ -46,7 +46,7 @@ Material:
     - _QueueOffset: 0
     - _Scale: 50
     - _ScrollSpeed: 0.1
-    - _Transparency: 0.7
+    - _Transparency: 0.95
     m_Colors:
     - _CloudColor: {r: 0, g: 0.15294114, b: 0.28235295, a: 1}
   m_BuildTextureStacks: []

@@ -5,6 +5,7 @@ using UnityEngine;
 public class DarknessMovement : MonoBehaviour
 {
     public float DarknessSpeed;
+    [SerializeField] float RunningAcceleration;
     [SerializeField] GameInfo gameInfo;
     [SerializeField] private float speedPerLoop;
     [SerializeField] private float pillChange;
@@ -27,5 +28,9 @@ public class DarknessMovement : MonoBehaviour
     {
         Vector2 DarkPos = new Vector2(DarknessSpeed,0);
         transform.position += (Vector3) DarkPos;
+        if(gameInfo.CurrentScene == GameScene.Running)
+        {
+            DarknessSpeed += RunningAcceleration;
+        }
     }
 }
