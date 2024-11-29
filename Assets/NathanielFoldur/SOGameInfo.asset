@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ff316c6827caa42a1d2677b877c0fd, type: 3}
   m_Name: SOGameInfo
   m_EditorClassIdentifier: 
-  NumberOfLoops: 3
+  NumberOfLoops: 1
   CurrentScene: 6

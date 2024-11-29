@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1553848998093714051}
   - component: {fileID: 7117465067863663156}
   - component: {fileID: 8741053273533381859}
+  - component: {fileID: 7659992665347835403}
   m_Layer: 0
   m_Name: TheDarkness
   m_TagString: Untagged
@@ -98,6 +99,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DarknessSpeed: 0.02
+  RunningAcceleration: 0
   gameInfo: {fileID: 0}
   speedPerLoop: 0
   pillChange: 0
+--- !u!114 &7659992665347835403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200314323761649294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef230f6f6752d4145b85fae33e530554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoorCollided:
+    m_PersistentCalls:
+      m_Calls: []

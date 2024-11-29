@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScreenFader : MonoBehaviour
@@ -14,6 +15,7 @@ public class ScreenFader : MonoBehaviour
         {
             Debug.LogError("FadeImage is not assigned. Please assign a UI Image.");
         }
+        FadeOut();
     }
 
     public void FadeIn()
@@ -44,5 +46,6 @@ public class ScreenFader : MonoBehaviour
         // Ensure final alpha is set
         color.a = endAlpha;
         fadeImage.color = color;
+        SceneManager.LoadScene("MainMenu");
     }
 }
